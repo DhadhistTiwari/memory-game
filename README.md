@@ -7,24 +7,31 @@ Flip cards, test your memory, and compete in **Single Player (vs Bot)** or **Two
 
 ## 🚀 Live Demo
 
-> _(Optional: )_  
-> Example: [Play the Game](https://DhadhistTiwari.github.io/memory-game)
+🎮 **Play Now** → [https://DhadhistTiwari.github.io/memory-game](https://DhadhistTiwari.github.io/memory-game)
+
+---
+
+## 🖼️ Preview
+
+> ![Memory Game Preview](preview.png) 
 
 ---
 
 ## 🎮 Features
 
 - 🎯 **Two Game Modes**:
-  - 👤 **Single Player**: Play against a smart randomized bot
-  - 🧑‍🤝‍🧑 **Two Player**: Take turns with a friend
-- 🌟 **Modern UI**:
-  - Built with **Tailwind CSS** and **custom CSS**
-  - Responsive and mobile-friendly
-- 🔁 **Card Flip Animation**
-  - 3D flip effect using CSS
-- 📈 **Score Tracking** for all players
+  - 👤 **Single Player**: Challenge a randomized bot opponent
+  - 🧑‍🤝‍🧑 **Two Player**: Take turns locally with a friend
+- 🌟 **Modern UI Design**:
+  - Tailwind-powered layout with vivid animations
+  - Works smoothly on all screen sizes
+- 🔁 **Card Flip Animation**:
+  - 3D transitions for satisfying interactions
+- 📊 **Live Score Tracking**:
+  - Separate panels for both players (or bot)
 - 🔄 **Game Reset** and **Return to Menu**
-- 🧠 **Winning Detection** with final score alerts
+- 🏆 **Win Detection**:
+  - Declares the winner with a final score summary
 
 ---
 
@@ -40,13 +47,5 @@ Flip cards, test your memory, and compete in **Single Player (vs Bot)** or **Two
 
 ---
 
-## 🖼️ UI & Gameplay Highlights
-
-- 📦 Flip cards with smooth 3D transitions
-- 🧠 Each turn updates the current player visually
-- 🕹️ Fully responsive layout for mobile and desktop
-- 🎨 Score panels color-coded for clarity
-- ⚙️ Bot makes random moves with realistic delays
-
----
+## 📁 Project Folder Structure
 
