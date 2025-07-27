@@ -13,7 +13,7 @@ Flip cards, test your memory, and compete in **Single Player (vs Bot)** or **Two
 
 ## 🖼️ Preview
 
-> ![Memory Game Preview](preview.png) 
+> ![Memory Game Preview](preview04.png) 
 
 ---
 
@@ -46,6 +46,4 @@ Flip cards, test your memory, and compete in **Single Player (vs Bot)** or **Two
 | **CSS3**         | Card animations & effects |
 
 ---
-
-## 📁 Project Folder Structure
-
+---
