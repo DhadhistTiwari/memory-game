@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <!-- Start Screen -->
+  <div id="startScreen" class="main text-center py-20">
+    <h1 class="text-3xl font-bold text-yellow-400 mb-6">Memory Game</h1>
+    <button class="bg-green-500 hover:text-black w-[150px] hover:bg-green-600 text-white font-bold py-2 px-6 rounded"
+      onclick="startSingleGame()">
+      Single Player
+    </button>
+    <button
+      class="bg-green-500 hover:text-black w-[150px] mt-2 hover:bg-green-600 text-white font-bold py-2 px-6 rounded"
+      onclick="startGame()">
+      Two Player
+    </button>
+
+  </div>
+
+  <!-- Game Screen -->
+  <div id="gameScreen" class="main hidden text-center py-10">
+    <h1 class="text-4xl font-bold text-yellow-400 mb-4">Memory Game</h1>
+
+    <div id="turn" class="bg-white px-5 rounded-full text-2xl text-gray-800 font-semibold mb-2 hidden">Turn: Player
+      <span id="turnDisplay" class="font-bold text-yellow-500">1</span>
+    </div>
+
+    <div id="twplyScore" class="text-xl text-center flex flex-row gap-2 font-bold hidden">
+      <div id="player1Score" class="text-red-400">Player1 Score: <span id="player1ScoreValue">0</span></div>
+      |
+      <div id="player2Score" class="text-blue-400">Player2 Score: <span id="player2ScoreValue">0</span></div>
+    </div>
+
+    <div id="botXply" class="text-xl text-center flex flex-row gap-5 font-bold hidden">
+      <div class="text-red-400">Player1 Score: <span id="singlePlayer1ScoreValue">0</span></div>
+      |
+      <div class="text-blue-400">Player (Bot) Score: <span id="botScore">0</span></div>
+    </div>
+
+
+    <!-- Game Board -->
+    <div id="gameBoard" class="flex flex-wrap gap-3 justify-center max-w-[400px] mx-auto">
+    </div>
+
+    <!-- Buttons -->
+    <div class="flex flex-row justify-between mt-2 sm:w-[350px] w-[300px] px-4">
+      <button class="bg-orange-400 hover:bg-orange-500 hover:text-white text-black font-bold py-2 px-5 rounded"
+        onclick="resetGame()">
+        <i class="fa fa-rotate-left"></i> Reset
+      </button>
+      <button class="bg-red-400 hover:bg-red-500 hover:text-white text-black font-bold py-2 px-5 rounded"
+        onclick="Menu()">
+        <i class="fa fa-bars"></i> Menu
+      </button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

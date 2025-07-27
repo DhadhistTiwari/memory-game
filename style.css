@@ -1,0 +1,68 @@
+    body {
+        background-color: #333;
+        margin: 0;
+        height: 100vh;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2rem;
+        height: 100vh;
+    }
+
+    .card {
+        perspective: 1000px;
+        cursor: pointer;
+    }
+
+    .card-inner {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        transition: transform 0.3s ease-in-out;
+        transform-style: preserve-3d;
+    }
+
+    .card.flipped .card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .front,
+    .back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        box-shadow: 0 4px 8px #000;
+    }
+
+    .front {
+        background-color: #1e3a8a;
+        color: white;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .front.twPlayer {
+        background-color: #ff4444 !important;
+        color: white;
+    }
+
+    .back {
+        background-color: #f3f4f6;
+        color: #eab308;
+        transform: rotateY(180deg);
+        box-shadow: inset 0 0 5px #eab308;
+    }
+
+    #gameBoard {
+        padding: 10px;
+    }
