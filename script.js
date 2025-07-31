@@ -8,8 +8,8 @@ let lastPlayer = "Ply1";
 let mode = "single";
 
 const icons = [
-    'fa-face-smile', 'fa-heart', 'fa-lightbulb', 'fa-car', 'fa-bolt',
-    'fa-star ', 'fa-face-surprise', 'fa-gem', 'fa-bug', 'fa-fish'
+    'fa-face-smile', 'fa-dragon', 'fa-lightbulb', 'fa-car', 'fa-bolt',
+    'fa-star ', 'fa-ghost', 'fa-gem', 'fa-bug', 'fa-fish'
 ];
 
 function playerTurn(player = "Ply1") {
