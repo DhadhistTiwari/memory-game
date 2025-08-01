@@ -9,7 +9,7 @@ let mode = "single";
 
 const icons = [
     'fa-face-smile', 'fa-dragon', 'fa-lightbulb', 'fa-car', 'fa-bolt',
-    'fa-star ', 'fa-ghost', 'fa-gem', 'fa-bug', 'fa-fish'
+    'fa-star ', 'fa-ghost', 'fa-kiwi-bird', 'fa-bug', 'fa-fish'
 ];
 
 function playerTurn(player = "Ply1") {
